@@ -1,0 +1,21 @@
+*** Start of Concatenating String Demo ***
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+100
+Type the 2nd string to compare:
+100
+'100' string is equal to '100'nType the 1st string to compare (q - to quit):
+150
+Type the 2nd string to compare:
+100
+'150' string is greater than '100'
+Type the 1st string to compare (q - to quit):
+100
+Type the 2nd string to compare:
+150
+'100' string is less than '150'
+Type the 1st string to compare (q - to quit):
