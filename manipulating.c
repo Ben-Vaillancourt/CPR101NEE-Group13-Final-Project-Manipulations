@@ -57,6 +57,28 @@ void manipulating() {
 	
 /* Version 3 */
 
-
+		printf("*** Start of Searching Strings Demo ***\n");
+		char hayStack[BUFFER_SIZE];
+		char needle[BUFFER_SIZE];
+		char* occurrence  = NULL;
+		
+		do
+		{
+			printf("Type the string (q - to quit):\n");
+			fgets(hayStack, BUFFER_SIZE, stdin);
+			hayStack[strlen(hayStack) - 1] = '\0';
+			if (strcmp(hayStack, "q") != 0)
+			{
+				printf("Type the substring:\n");
+				fgets(needle, BUFFER_SIZE, stdin);
+				needle[strlen(needle) - 1] = '\0';
+				occurrence = strstr(hayStack, needle);
+				if (occurrence)
+					printf("\'%s\' found at %d position\n", needle, (int)(occurrence - hayStack));
+				else
+					printf("Not found\n");
+			}
+		} while (strcmp(hayStack, "q") != 0);
+		printf("*** End of Searching Strings Demo ***\n\n");
 
 }

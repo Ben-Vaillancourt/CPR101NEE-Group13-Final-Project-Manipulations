@@ -5,17 +5,24 @@ q
 
 *** Start of Comparing Strings Demo ***
 Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
 100
-Type the 2nd string to compare:
+Type the substring:
 100
-'100' string is equal to '100'nType the 1st string to compare (q - to quit):
+'100' found at 0 position
+Type the string (q - to quit):
+100
+Type the substring:
 150
-Type the 2nd string to compare:
-100
-'150' string is greater than '100'
-Type the 1st string to compare (q - to quit):
-100
-Type the 2nd string to compare:
-150
-'100' string is less than '150'
-Type the 1st string to compare (q - to quit):
+Not found
+Type the string (q - to quit):
+130
+Type the substring:
+120
+Not found
+Type the string (q - to quit):
+11
